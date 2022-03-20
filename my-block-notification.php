@@ -24,7 +24,11 @@ add_action( 'wp_head', function() {
 .wp-block-my-block-notification {
 	background: #1e73be;
 	color: #fff;
-	padding: 30px 45px 10px 45px; 
+	padding: 20px 45px;
+}
+.wp-block-my-block-notification p {
+	padding: 0;
+	margin: 0;
 }
 </style>
 <?php

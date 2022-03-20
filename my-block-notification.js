@@ -19,12 +19,12 @@ registerBlockType( 'my-block/notification', {
 		const style = {
 			background: '#1e73be',
 			color: '#fff',
-			padding: '5px 45px',
+			padding: '20px 45px',
 		};
 		return (
 			<div style={ style }>
 				<RichText
-					tagName="p"
+					tagName="span"
 					onChange={ (newContent) => {
 						setAttributes( { content: newContent } );
 					} }
